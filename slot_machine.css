@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: #444;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    color: #ffd700;
+  }
+  
+  #controls input {
+    width: 100px;
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  #controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    background: #ffd700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #controls button:disabled {
+    background: #999;
+    cursor: not-allowed;
+  }
+  
+  #slot-machine {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  
+  .slot-row {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+  }
+  
+  .slot-row div {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  #results {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #results #message {
+    color: #0f0;
+  }
+  
